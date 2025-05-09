@@ -25,13 +25,8 @@ header nav{
 }
 
 header #loading{
-    width: 1000px;
-    height: 1000px;
+    width: 32px;
     display: none;
-    z-index: 1;
-    margin-top: 600px;
-    margin-right: 600px;
-
 }
 
 header #loading.on{

@@ -1,4 +1,4 @@
-const URL_API = "https://x8ki-letl-twmt.n7.xano.io/api:tbL8W82e/project"
+const URL_API = "https://x8ki-letl-twmt.n7.xano.io/api:J5SsuBXb/project"
 
 function alteraClasse(classe) {
     document.getElementById("cards").setAttribute("class", classe)
@@ -25,6 +25,8 @@ function loading(status){
         overlay.classList.remove("on") 
     }
 }
+
+loading(false)
 
 async function cadastrarNota(){
     try{
